@@ -1,11 +1,9 @@
 var urlLoc = document.location.hostname;
 console.log(urlLoc);
 if(urlLoc == "localhost")
-	var WEB_ROOT = "http://" + urlLoc + "/fsalinas/webmaster";
-else if(urlLoc == "desarrollot.no-ip.biz" || urlLoc == "192.168.1.200")
-	var WEB_ROOT = "http://" + urlLoc + "/fsalinas/webmaster";
+	var WEB_ROOT = "http://" + urlLoc + "/hbsystem";
 else
-	var WEB_ROOT = "http://" + urlLoc + "/webmaster";
+	var WEB_ROOT = "http://" + urlLoc + "/";
 
 var LOADER = "<img src='"+WEB_ROOT+"/images/loading.gif'><br>Cargando...";
 var LOADER2 = "<img src='"+WEB_ROOT+"/images/loader.gif'>";
