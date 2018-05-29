@@ -3,7 +3,7 @@ console.log(urlLoc);
 if(urlLoc == "localhost")
 	var WEB_ROOT = "http://" + urlLoc + "/hbsystem";
 else
-	var WEB_ROOT = "http://" + urlLoc + "/";
+	var WEB_ROOT = "http://" + urlLoc + "";
 
 var LOADER = "<img src='"+WEB_ROOT+"/images/loading.gif'><br>Cargando...";
 var LOADER2 = "<img src='"+WEB_ROOT+"/images/loader.gif'>";
